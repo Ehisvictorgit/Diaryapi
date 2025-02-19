@@ -4,6 +4,6 @@ from .views import Diarydetailview
 from . import views
 
 urlpatterns = [
-    path('',views.Diaryview.as_view()),
+    path('dairy',views.Diaryview.as_view()),
     path('diary/<int:id>/', views.Diarydetailview.as_view()), 
 ]
