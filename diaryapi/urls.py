@@ -4,5 +4,5 @@ from .views import Diarydetailview
 
 urlpatterns = [
     path('diary/', Diaryview.as_view()),
-    path('diary/<int:id>/', Diarydetailview.as_view()), 
+    path('diary/id/', Diarydetailview.as_view()), 
 ]
