@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-k$eq-5rw&hldjj19r1desuw6&%@qv6)$!hd&k*$ipfn3%03^$o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost','https://diaryapi-vj7w.onrender.com','diaryapi-vj7w.onrender.com']
 
 
 # Application definition
